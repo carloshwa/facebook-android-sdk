@@ -6,7 +6,7 @@ repositories {
 
 dependencies {
     implementation project(':facebook-share')
-    implementation 'com.parse.bolts:bolts-android:1.2.1'
+    implementation 'com.parse.bolts:bolts-android:1.4.0'
 }
 
 android {
