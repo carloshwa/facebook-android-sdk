@@ -51,4 +51,4 @@ android {
     }
 }
 
-apply from: "${rootDir}/maven.gradle"
+apply from: "${rootDir}/jitpack.gradle"
