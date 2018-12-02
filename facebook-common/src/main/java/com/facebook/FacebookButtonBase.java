@@ -27,15 +27,14 @@ import android.content.ContextWrapper;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Typeface;
-import android.support.v4.app.Fragment;
-import android.support.v4.content.ContextCompat;
+import androidx.core.app.Fragment;
+import androidx.core.content.ContextCompat;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 
-import com.facebook.FacebookException;
 import com.facebook.appevents.AppEventsLogger;
 import com.facebook.internal.FragmentWrapper;
 import com.facebook.common.R;

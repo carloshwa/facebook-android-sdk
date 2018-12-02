@@ -22,7 +22,7 @@ package com.facebook.appevents;
 
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.facebook.FacebookException;
 import com.facebook.LoggingBehavior;

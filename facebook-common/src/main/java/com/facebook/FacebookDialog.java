@@ -20,8 +20,6 @@
 
 package com.facebook;
 
-import com.facebook.CallbackManager;
-
 /**
  * Represents dialogs provided by Facebook
  */
@@ -45,7 +43,7 @@ public interface FacebookDialog<CONTENT, RESULT> {
      * Allows the registration of a callback that will be executed once the dialog is closed, with
      * success, cancel or error details. This should be called in the
      * {@link android.app.Activity#onCreate(android.os.Bundle)} or
-     * {@link android.support.v4.app.Fragment#onCreate(android.os.Bundle)} methods.
+     * {@link androidx.core.app.Fragment#onCreate(android.os.Bundle)} methods.
      *
      * @param callbackManager CallbackManager instance that will handle the onActivityResult
      * @param callback Callback to be called upon dialog completion
@@ -58,7 +56,7 @@ public interface FacebookDialog<CONTENT, RESULT> {
      * Allows the registration of a callback that will be executed once the dialog is closed, with
      * success, cancel or error details. This should be called in the
      * {@link android.app.Activity#onCreate(android.os.Bundle)} or
-     * {@link android.support.v4.app.Fragment#onCreate(android.os.Bundle)} methods.
+     * {@link androidx.core.app.Fragment#onCreate(android.os.Bundle)} methods.
      *
      * @param callbackManager CallbackManager instance that will handle the Activity Result
      * @param callback Callback to be called upon dialog completion

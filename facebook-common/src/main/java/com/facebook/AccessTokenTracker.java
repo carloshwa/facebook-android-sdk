@@ -24,8 +24,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.support.v4.content.LocalBroadcastManager;
-import android.util.Log;
+import androidx.core.content.LocalBroadcastManager;
 
 import com.facebook.internal.Utility;
 import com.facebook.internal.Validate;

@@ -22,7 +22,7 @@ package com.facebook.samples.loginsample.accountkit;
 
 import android.app.Fragment;
 import android.os.Parcel;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.facebook.accountkit.AccountKitError;
 import com.facebook.accountkit.ui.BaseUIManager;

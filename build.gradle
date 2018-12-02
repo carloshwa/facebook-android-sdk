@@ -20,5 +20,14 @@ allprojects {
         jcenter()
     }
 
+    configurations {
+        all {
+            resolutionStrategy {
+                force "androidx.core:core:1.0.1"
+                force "androidx.cardview:cardview:1.0.0"
+            }
+        }
+    }
+
     project.apply from: "${rootDir}/constants.gradle"
 }

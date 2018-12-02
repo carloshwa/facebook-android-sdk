@@ -20,15 +20,11 @@
 
 package com.facebook.appevents.internal;
 
-import android.app.Activity;
 import android.app.Application;
-import android.content.ComponentName;
 import android.content.Context;
-import android.content.Intent;
-import android.content.ServiceConnection;
 import android.os.Bundle;
-import android.os.IBinder;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 import android.util.Log;
 
 import com.facebook.FacebookSdk;
@@ -36,16 +32,13 @@ import com.facebook.appevents.AppEventsLogger;
 import com.facebook.internal.FetchedAppGateKeepersManager;
 import com.facebook.internal.FetchedAppSettings;
 import com.facebook.internal.FetchedAppSettingsManager;
-import com.facebook.internal.Utility;
 import com.facebook.internal.Validate;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.Currency;
-import java.util.Map;
 
 /**
  * com.facebook.appevents.internal is solely for the use of other packages within the

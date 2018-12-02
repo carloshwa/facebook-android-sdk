@@ -25,7 +25,7 @@ import android.content.*;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.core.content.LocalBroadcastManager;
 import android.util.Log;
 
 import com.facebook.*;

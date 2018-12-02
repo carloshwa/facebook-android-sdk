@@ -27,9 +27,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.core.content.LocalBroadcastManager;
 
-import com.facebook.FacebookSdk;
 import com.facebook.internal.CustomTab;
 
 public class CustomTabMainActivity extends Activity {

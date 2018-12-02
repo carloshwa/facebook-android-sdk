@@ -23,7 +23,7 @@ package com.facebook.share.widget;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import androidx.core.app.Fragment;
 
 import com.facebook.FacebookCallback;
 import com.facebook.appevents.AppEventsLogger;
@@ -38,7 +38,6 @@ import com.facebook.share.Sharer;
 import com.facebook.share.internal.LegacyNativeDialogParameters;
 import com.facebook.share.internal.MessageDialogFeature;
 import com.facebook.share.internal.NativeDialogParameters;
-import com.facebook.share.internal.OpenGraphMessageDialogFeature;
 import com.facebook.share.internal.ShareContentValidation;
 import com.facebook.share.internal.ShareInternalUtility;
 import com.facebook.share.model.*;

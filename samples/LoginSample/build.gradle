@@ -45,7 +45,7 @@ dependencies {
         exclude group: 'com.android.support'
         exclude group: 'com.google.android.gms'
     }
-    implementation "com.android.support:appcompat-v7:${project.ext.supportLibraryVersion}"
+    implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'com.google.android.gms:play-services-base:16.0.1'
 
     testImplementation 'junit:junit:4.12'

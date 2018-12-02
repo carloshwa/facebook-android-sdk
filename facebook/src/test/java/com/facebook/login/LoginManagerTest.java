@@ -29,8 +29,8 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
+import androidx.core.app.Fragment;
+import androidx.core.app.FragmentActivity;
 
 import com.facebook.AccessToken;
 import com.facebook.AccessTokenSource;

@@ -4,7 +4,7 @@ dependencies {
     // Facebook Dependencies
     implementation project(':facebook-login')
     // Support Dependencies
-    implementation "com.android.support:appcompat-v7:${project.ext.supportLibraryVersion}"
+    implementation 'androidx.appcompat:appcompat:1.0.2'
 }
 
 android {

@@ -22,7 +22,7 @@ package com.facebook.appevents;
 
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.core.content.LocalBroadcastManager;
 
 import com.facebook.AccessToken;
 import com.facebook.AccessTokenSource;

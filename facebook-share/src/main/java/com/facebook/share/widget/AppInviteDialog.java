@@ -23,12 +23,11 @@ package com.facebook.share.widget;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import androidx.core.app.Fragment;
 import android.text.TextUtils;
 import android.util.Log;
 
 import com.facebook.FacebookCallback;
-import com.facebook.internal.*;
 import com.facebook.internal.AppCall;
 import com.facebook.internal.CallbackManagerImpl;
 import com.facebook.internal.DialogFeature;

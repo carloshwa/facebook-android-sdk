@@ -20,7 +20,7 @@
 
 package com.facebook.login;
 
-import android.support.v4.app.FragmentActivity;
+import androidx.core.app.FragmentActivity;
 
 import com.facebook.FacebookPowerMockTestCase;
 

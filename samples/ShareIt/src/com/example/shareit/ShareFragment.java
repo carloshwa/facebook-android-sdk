@@ -22,11 +22,11 @@ package com.example.shareit;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
+import androidx.core.app.Fragment;
+import androidx.core.app.FragmentManager;
+import androidx.core.app.FragmentStatePagerAdapter;
+import androidx.core.view.PagerAdapter;
+import androidx.core.view.ViewPager;
 import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
