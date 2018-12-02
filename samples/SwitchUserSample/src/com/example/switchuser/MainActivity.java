@@ -21,9 +21,10 @@
 package com.example.switchuser;
 
 import android.os.Bundle;
-import androidx.core.app.FragmentManager;
-import androidx.core.app.FragmentTransaction;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {

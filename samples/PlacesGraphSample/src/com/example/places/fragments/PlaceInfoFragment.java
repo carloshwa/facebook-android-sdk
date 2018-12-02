@@ -28,12 +28,12 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
-import androidx.core.app.Fragment;
+import androidx.fragment.app.Fragment;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.LinearLayoutManager;
-import androidx.appcompat.widget.RecyclerView;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.telephony.PhoneNumberUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -52,6 +52,7 @@ import com.example.places.model.Place;
 import com.example.places.model.PlaceTextUtils;
 import com.example.places.utils.BitmapDownloadTask;
 import com.facebook.GraphResponse;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;

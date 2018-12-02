@@ -22,7 +22,7 @@ package com.example.switchuser;
 
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.core.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.view.*;
 import android.widget.TextView;
 

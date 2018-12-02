@@ -27,7 +27,8 @@ import android.graphics.BitmapFactory;
 import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
-import androidx.core.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
+
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;

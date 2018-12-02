@@ -37,7 +37,6 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.StyleRes;
 import androidx.core.content.ContextCompat;
-import androidx.core.content.LocalBroadcastManager;
 import android.util.SparseArray;
 import android.view.View;
 import android.widget.AdapterView;
@@ -71,6 +70,8 @@ import com.google.android.gms.common.GoogleApiAvailability;
 import java.util.ArrayList;
 import java.util.List;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+
 import java.util.UUID;
 import com.facebook.samples.loginsample.R;
 

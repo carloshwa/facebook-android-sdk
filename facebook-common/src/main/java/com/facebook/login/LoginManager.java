@@ -29,7 +29,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.content.Context;
 import androidx.annotation.Nullable;
-import androidx.core.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;

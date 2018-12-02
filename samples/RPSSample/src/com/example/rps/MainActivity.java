@@ -23,14 +23,14 @@ package com.example.rps;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import androidx.core.app.Fragment;
-import androidx.core.app.FragmentActivity;
-import androidx.core.app.FragmentManager;
-import androidx.core.app.FragmentTransaction;
+import androidx.fragment.app.Fragment;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import bolts.AppLinks;
 import com.facebook.*;
 import com.facebook.AccessToken;

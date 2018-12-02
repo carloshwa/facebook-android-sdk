@@ -26,7 +26,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import androidx.core.content.LocalBroadcastManager;
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 /*
  * Login from a custom tab redirects here. Pass the url on to CustomTabMainActivity so it can return

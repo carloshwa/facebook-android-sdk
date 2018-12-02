@@ -26,13 +26,13 @@ import android.content.Intent;
 import android.graphics.Rect;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
-import androidx.core.app.Fragment;
-import androidx.core.app.FragmentTransaction;
+import androidx.cardview.widget.CardView;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.core.view.ViewCompat;
-import androidx.appcompat.widget.CardView;
-import androidx.appcompat.widget.LinearLayoutManager;
-import androidx.appcompat.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -60,6 +60,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -27,9 +27,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import androidx.core.content.LocalBroadcastManager;
 
 import com.facebook.internal.CustomTab;
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 public class CustomTabMainActivity extends Activity {
     public static final String EXTRA_PARAMS =

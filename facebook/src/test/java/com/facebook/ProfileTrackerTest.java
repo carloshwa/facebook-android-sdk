@@ -21,7 +21,7 @@
 package com.facebook;
 
 import android.content.Intent;
-import androidx.core.content.LocalBroadcastManager;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import org.junit.Test;
 import org.robolectric.RuntimeEnvironment;

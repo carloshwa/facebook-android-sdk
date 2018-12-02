@@ -23,7 +23,6 @@ package com.facebook.appevents;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.core.content.LocalBroadcastManager;
 import android.util.Log;
 
 import com.facebook.FacebookRequestError;
@@ -45,6 +44,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 class AppEventQueue {
     private static final String TAG = AppEventQueue.class.getName();

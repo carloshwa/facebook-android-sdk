@@ -23,7 +23,6 @@ package com.facebook.share.internal;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.core.app.Fragment;
 import android.util.Log;
 
 import com.facebook.FacebookCallback;
@@ -36,6 +35,8 @@ import com.facebook.internal.FragmentWrapper;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.fragment.app.Fragment;
 
 /**
  * com.facebook.share.internal is solely for the use of other packages within the

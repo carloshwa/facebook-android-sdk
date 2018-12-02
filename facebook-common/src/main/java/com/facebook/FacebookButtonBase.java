@@ -27,8 +27,9 @@ import android.content.ContextWrapper;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Typeface;
-import androidx.core.app.Fragment;
 import androidx.core.content.ContextCompat;
+import androidx.fragment.app.Fragment;
+
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Gravity;

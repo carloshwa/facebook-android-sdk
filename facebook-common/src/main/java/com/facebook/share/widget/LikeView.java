@@ -29,8 +29,6 @@ import android.content.IntentFilter;
 import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.os.Bundle;
-import androidx.core.app.Fragment;
-import androidx.core.content.LocalBroadcastManager;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -47,6 +45,9 @@ import com.facebook.internal.FragmentWrapper;
 import com.facebook.share.internal.LikeActionController;
 import com.facebook.share.internal.LikeBoxCountView;
 import com.facebook.share.internal.LikeButton;
+
+import androidx.fragment.app.Fragment;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 /**
  * @deprecated

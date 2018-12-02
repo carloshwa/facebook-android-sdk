@@ -25,9 +25,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import androidx.core.content.LocalBroadcastManager;
 
 import com.facebook.appevents.AppEventsLogger;
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 /**
  * com.facebook.internal is solely for the use of other packages within the Facebook SDK for

@@ -24,9 +24,10 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import androidx.core.content.LocalBroadcastManager;
 
 import com.facebook.internal.Validate;
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 /**
  * This class can be extended to receive notifications of profile changes. The {@link

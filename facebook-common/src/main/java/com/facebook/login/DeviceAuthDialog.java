@@ -31,7 +31,8 @@ import android.os.Parcelable;
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.core.app.DialogFragment;
+import androidx.fragment.app.DialogFragment;
+
 import android.text.Html;
 import android.text.TextUtils;
 import android.view.LayoutInflater;

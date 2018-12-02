@@ -25,7 +25,6 @@ import android.content.*;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import androidx.core.content.LocalBroadcastManager;
 import android.util.Log;
 
 import com.facebook.*;
@@ -62,6 +61,8 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Locale;
 import java.util.concurrent.ConcurrentHashMap;
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 /**
  * com.facebook.share.internal is solely for the use of other packages within the Facebook SDK for

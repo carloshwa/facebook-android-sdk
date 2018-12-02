@@ -21,7 +21,8 @@
 package com.example.shareit;
 
 import android.content.Context;
-import androidx.core.view.ViewPager;
+import androidx.viewpager.widget.ViewPager;
+
 import android.util.AttributeSet;
 import android.view.View;
 

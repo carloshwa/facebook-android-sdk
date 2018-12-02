@@ -21,8 +21,8 @@
 package com.facebook;
 
 import android.os.Bundle;
-import androidx.core.app.Fragment;
-import androidx.core.app.FragmentActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 import android.widget.LinearLayout;
 
 public class FragmentTestCase<T extends FragmentTestCase.TestFragmentActivity<?>> extends FacebookActivityTestCase<T> {

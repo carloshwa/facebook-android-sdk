@@ -24,9 +24,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
-import androidx.core.app.DialogFragment;
-import androidx.appcompat.widget.LinearLayoutManager;
-import androidx.appcompat.widget.RecyclerView;
+import androidx.fragment.app.DialogFragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

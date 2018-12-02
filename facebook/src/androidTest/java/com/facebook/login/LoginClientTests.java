@@ -21,7 +21,7 @@
 package com.facebook.login;
 
 import android.annotation.SuppressLint;
-import androidx.core.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.test.suitebuilder.annotation.LargeTest;
 
 import com.facebook.AccessToken;

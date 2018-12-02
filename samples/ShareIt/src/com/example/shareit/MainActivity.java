@@ -22,10 +22,11 @@ package com.example.shareit;
 
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.core.app.FragmentManager;
 import androidx.core.view.MenuItemCompat;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.ShareActionProvider;
+import androidx.fragment.app.FragmentManager;
+
 import android.view.Menu;
 import android.view.MenuItem;
 

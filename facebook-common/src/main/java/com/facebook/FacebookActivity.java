@@ -23,9 +23,9 @@ package com.facebook;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import androidx.core.app.Fragment;
-import androidx.core.app.FragmentActivity;
-import androidx.core.app.FragmentManager;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
 
 import com.facebook.common.R;
 import com.facebook.internal.FacebookDialogFragment;
@@ -34,6 +34,8 @@ import com.facebook.internal.Utility;
 import com.facebook.login.LoginFragment;
 import com.facebook.share.internal.DeviceShareDialogFragment;
 import com.facebook.share.model.ShareContent;
+
+import static com.facebook.FacebookSdk.getApplicationContext;
 
 /**
  * This Activity is a necessary part of the overall Facebook SDK,
