@@ -24,8 +24,6 @@ package com.facebook.internal;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.util.Log;
 
 import com.facebook.FacebookSdk;
 import com.facebook.GraphRequest;
@@ -37,6 +35,8 @@ import org.json.JSONObject;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+
+import androidx.annotation.Nullable;
 
 /**
  * com.facebook.internal is solely for the use of other packages within the Facebook SDK for
