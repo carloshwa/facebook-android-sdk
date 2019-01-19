@@ -11,7 +11,7 @@ dependencies {
     // Facebook Dependencies
     implementation 'com.parse.bolts:bolts-android:1.4.0'
     // Support Dependencies
-    implementation 'androidx.annotation:annotation:1.0.0'
+    implementation 'androidx.annotation:annotation:1.0.1'
     implementation 'androidx.legacy:legacy-support-core-utils:1.0.0'
     implementation "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0"
     // Unit Tests
