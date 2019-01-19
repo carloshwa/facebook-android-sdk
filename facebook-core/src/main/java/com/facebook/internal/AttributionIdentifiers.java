@@ -37,6 +37,7 @@ import androidx.annotation.Nullable;
 import android.util.Log;
 
 import com.facebook.FacebookException;
+import com.facebook.FacebookSdk;
 
 import java.lang.reflect.Method;
 import java.util.concurrent.BlockingQueue;
@@ -134,6 +135,7 @@ public class AttributionIdentifiers {
             identifiers.limitTracking = (Boolean) Utility.invokeMethodQuietly(
                     advertisingInfo,
                     isLimitAdTrackingEnabled);
+
             return identifiers;
         } catch (Exception e) {
             Utility.logd("android_id", e);
@@ -226,6 +228,10 @@ public class AttributionIdentifiers {
         return cacheAndReturnIdentifiers(identifiers);
     }
 
+    public static AttributionIdentifiers getCachedIdentifiers() {
+        return recentlyFetchedIdentifiers;
+    }
+
     private static AttributionIdentifiers cacheAndReturnIdentifiers(
             AttributionIdentifiers identifiers) {
         identifiers.fetchTime = System.currentTimeMillis();
@@ -238,7 +244,11 @@ public class AttributionIdentifiers {
     }
 
     public String getAndroidAdvertiserId() {
-        return androidAdvertiserId;
+        if (FacebookSdk.isInitialized() && FacebookSdk.getAdvertiserIDCollectionEnabled()) {
+            return androidAdvertiserId;
+        } else {
+            return null;
+        }
     }
 
     public String getAndroidInstallerPackage() {
