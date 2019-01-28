@@ -25,11 +25,11 @@ import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
+
 import android.util.Log;
 
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
-import com.facebook.internal.FetchedAppGateKeepersManager;
 import com.facebook.internal.FetchedAppSettings;
 import com.facebook.internal.FetchedAppSettingsManager;
 import com.facebook.internal.Validate;
@@ -119,7 +119,6 @@ public class AutomaticAnalyticsLogger {
             return;
         }
 
-        final String applicationId = FacebookSdk.getApplicationId();
         String eventName;
         switch (subsType) {
             case RESTORE:
